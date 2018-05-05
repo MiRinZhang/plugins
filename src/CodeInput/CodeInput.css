@@ -12,7 +12,7 @@
     margin: 0;
 }
 
-.inputs-container input[class^=code-input_] {
+.inputs-container input {
     outline: none;
     border-radius: 3px;
     border: 1px solid rgba(35, 42, 47, 0.1);
@@ -25,10 +25,10 @@
     transition: all 0.2s ease-in;
 }
 
-.inputs-container input[class^=code-input_]:focus {
+.inputs-container input:focus {
     border-color: #232A2F;
 }
 
-.inputs-container input[class^=code-input_]:not(:last-child) {
+.inputs-container input:not(:last-child) {
     margin-right: 15px;
 }

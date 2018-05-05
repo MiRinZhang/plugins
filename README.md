@@ -1,2 +1,5 @@
 # plugins
-plugins collection
+
+> plugins collection
+
+* [CodeInput](./src/CodeInput/README.md)

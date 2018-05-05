@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeInput</title>
+    <link rel="stylesheet" href="./CodeInput.css">
+</head>
+<body>
+<div id="inputs"></div>
+<script src="CodeInput.js"></script>
+<script>
+    new CodeInput('inputs', {
+        number: 6,
+        autofocus: true,
+        type: 'number',
+        complete: function (value) {
+            console.log('complete', value);
+        }
+    });
+</script>
+</body>
+</html>

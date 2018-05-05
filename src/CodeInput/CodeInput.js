@@ -40,9 +40,6 @@
             input.style.height = this.options.height;
             input.style.fontSize = this.options.fontSize;
             
-            // 添加自定义类
-            input.className = 'code-input_' + i;
-            
             // 设置默认值
             this.values[i] = '';
             

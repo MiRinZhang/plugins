@@ -1,18 +1,18 @@
-#inputs {
+.inputs-container {
     display: inline-block;
 }
 
-#inputs input[type=number] {
+.inputs-container input[type=number] {
     -moz-appearance: textfield;
 }
 
-#inputs input[type=number]::-webkit-inner-spin-button,
-#inputs input[type=number]::-webkit-outer-spin-button {
+.inputs-container input[type=number]::-webkit-inner-spin-button,
+.inputs-container input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
-#inputs input[class^=code-input_] {
+.inputs-container input[class^=code-input_] {
     outline: none;
     border-radius: 3px;
     border: 1px solid rgba(35, 42, 47, 0.1);
@@ -25,10 +25,10 @@
     transition: all 0.2s ease-in;
 }
 
-#inputs input[class^=code-input_]:focus {
+.inputs-container input[class^=code-input_]:focus {
     border-color: #232A2F;
 }
 
-#inputs input[class^=code-input_]:not(:last-child) {
+.inputs-container input[class^=code-input_]:not(:last-child) {
     margin-right: 15px;
 }

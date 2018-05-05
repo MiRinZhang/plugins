@@ -9,7 +9,7 @@ new CodeInput('inputs', // containerID
         autofocus: true,
         width: '35px',
         height: '35px',
-        type: 'number', // The type of input
+        type: 'number', // The type of input (number or text)
         fontSize: '18px',
         complete: function (value) {
             console.log('complete', value);

@@ -26,6 +26,9 @@
         
         var container = document.getElementById(containerID);
         var frage = document.createDocumentFragment();
+       
+        // 为container添加自定义类名
+        container.classList.add('inputs-container');
         
         for (var i = 0; i < this.options.number; i++) {
             var input = document.createElement('input');
